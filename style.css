@@ -92,11 +92,16 @@ li {
     position: relative;
     display: flex;
     justify-content:end;
-    align-items: center;
+    align-items:center;
 }
 #carousel_section {
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 40px;
-    padding-bottom: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fefae0;
+    margin-top:50px;
+    margin-right:50px;
+    margin-left:50px;
+    margin-bottom:150px;
 }
