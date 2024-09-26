@@ -90,10 +90,13 @@ li {
 .container_carousel {
     background-color: #dda15e;
     position: relative;
-    margin-top: 100px;
     display: flex;
     justify-content:end;
+    align-items: center;
 }
-#diff_name {
-    display:flex;
+#carousel_section {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 200px;
 }
