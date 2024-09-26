@@ -36,12 +36,19 @@ body {
     /* max-width: 50%; */
 }
 .container_main {
-    margin: 0 auto;
-    width: 45%;
+    display: flex;
+    max-width: 45%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 140px;
+    position: absolute;
 }
 #main {
     background-color: #31572c;
     text-align:center;
+    display: flex;
+    align-items: center;
+    z-index: 10;
 }
 p {
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -73,4 +80,15 @@ li {
 }
 .navbar>.container-fluid {
     justify-content:end;
+}
+.navbar-nav {
+    padding-right: 0;
+}
+.nav-item {
+    padding-right: 0;
+}
+.container_carousel {
+    background-color: #dda15e;
+    position: relative;
+    margin-top: 100px;
 }
