@@ -13,7 +13,7 @@ body {
     text-align: center;
 }
 .container_title {
-    background-color: #fefae0;
+    background-color: #dda15e;
     position:relative;
     width: 100%;
     border-bottom: 8px solid #31572c;
@@ -88,7 +88,7 @@ li {
     padding-right: 0;
 }
 .container_carousel {
-    background-color: #fefae0;
+    background-color:#fefae0;
     position: relative;
     display: flex;
     justify-content:end;
@@ -99,7 +99,7 @@ li {
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #dda15e;
+    background-color:#bc6c25;
     margin-top:50px;
     margin-right:50px;
     margin-left:50px;
