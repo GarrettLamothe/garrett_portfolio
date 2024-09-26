@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+.container_header {
+    position: relative;
+    width: 100%;
+    padding-bottom: 0px;
+}
+#header {
+    background-color: #31572c;
+    color: #31572c;
+    text-align: center;
+}
+.container_title {
+    background-color: #fefae0;
+    position:relative;
+    width: 100%;
+    border-bottom: 8px solid #31572c;
+    padding-top: 0px;
+}
+.nav-section {
+    /* max-width: 50%; */
+}
+#title {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #31572c;
+    text-align:left;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+#Garrett_Lamothe {
+    padding: 15px 50px 15px 50px;
+    font-size: 56px;
+    /* max-width: 50%; */
+}
+.container_main {
+    margin: 0 auto;
+    width: 45%;
+}
+#main {
+    background-color: #31572c;
+    text-align:center;
+}
+p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#fefae0;
+    text-align:center;
+}
+footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #31572c;
+    color:#fefae0;
+    text-align:center;
+}
+ul {
+    padding: 10px;
+    
+}
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+.bg-body-tertiary {
+    background-color: #fefae0 !important;
+}
+.navbar-nav, .navbar-toggler {
+    text-align:right;
+}
+.navbar>.container-fluid {
+    justify-content:end;
+}
