@@ -8,15 +8,15 @@ body {
     padding-bottom: 0px;
 }
 #header {
-    background-color: #31572c;
-    color: #31572c;
+    background-color:black;
+    color: #1a4301;
     text-align: center;
 }
 .container_title {
-    background-color: #dda15e;
+    background-color: #fdf0d5;
     position:relative;
     width: 100%;
-    border-bottom: 8px solid #31572c;
+    border-bottom: 8px solid black;
     padding-top: 0px;
 }
 .nav-section {
@@ -44,7 +44,7 @@ body {
     position: absolute;
 }
 #main {
-    background-color: #31572c;
+    background-color: black;
     text-align:center;
     display: flex;
     align-items: center;
@@ -60,7 +60,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #31572c;
+    background-color: black;
     color:#fefae0;
     text-align:center;
 }
@@ -73,7 +73,7 @@ li {
     padding: 0px 10px 0px 10px;
 }
 .bg-body-tertiary {
-    background-color: #dda15e !important;
+    background-color: #fdf0d5 !important;
 }
 .navbar-nav, .navbar-toggler {
     text-align:right;
@@ -88,7 +88,7 @@ li {
     padding-right: 0;
 }
 .container_carousel {
-    background-color:#fefae0;
+    background-color: #003049;
     position: relative;
     display: flex;
     justify-content:end;
@@ -99,7 +99,7 @@ li {
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color:#bc6c25;
+    background-color:#003049;
     margin-top:50px;
     margin-right:50px;
     margin-left:50px;
