@@ -1,5 +1,5 @@
 body {
-    background-color: #e3d8d0;
+    background-color: white;
     margin: 0 auto;
 }
 .container_header {
@@ -8,15 +8,15 @@ body {
     padding-bottom: 0px;
 }
 #header {
-    background-color:rgb(17, 74, 17);
+    background-color:black;
     color: #1a4301;
     text-align: center;
 }
 .container_title {
-    background-color: #f1ebdf;
+    background-color: white;
     position:relative;
     width: 100%;
-    border-bottom: 8px solid rgb(17, 74, 17);
+    border-bottom: 8px solid black;
     padding-top: 0px;
 }
 .nav-section {
@@ -24,7 +24,7 @@ body {
 }
 #title {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: #31572c;
+    color: black;
     text-align:left;
     display:flex;
     justify-content:space-between;
@@ -44,7 +44,7 @@ body {
     position: absolute;
 }
 #main {
-    background-color: rgb(17, 74, 17);
+    background-color: black;
     text-align:center;
     display: flex;
     align-items: center;
@@ -52,7 +52,7 @@ body {
 }
 p {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:#f1ebdf;
+    color:white;
     text-align:center;
 }
 footer {
@@ -60,8 +60,8 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(17, 74, 17);
-    color:#f1ebdf;
+    background-color: black;
+    color:white;
     text-align:center;
 }
 ul {
@@ -73,7 +73,7 @@ li {
     padding: 0px 10px 0px 10px;
 }
 .bg-body-tertiary {
-    background-color: #f1ebdf !important;
+    background-color: white !important;
 }
 .navbar-nav, .navbar-toggler {
     text-align:right;
@@ -88,7 +88,7 @@ li {
     padding-right: 0;
 }
 .container_carousel {
-    background-color: #f1ebdf;
+    background-color: white;
     position: relative;
     display: flex;
     justify-content:end;
@@ -99,9 +99,21 @@ li {
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color:#f1ebdf;
+    background-color:white;
     margin-top:50px;
     margin-right:50px;
     margin-left:50px;
     margin-bottom:150px;
+}
+.plantidentifier_header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container_fileinput {
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
