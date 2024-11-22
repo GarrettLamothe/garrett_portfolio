@@ -89,7 +89,7 @@ body {
     float: left;
     z-index: 2;
 }
-#bio_paragraph {
+#bio_paragraph, #skills_paragraph {
     color:black;
     text-align:center;
     max-width: 100%;
@@ -250,7 +250,7 @@ li {
     content: "Upload"
 }
 .custom-file-input:valid+.custom-file-label::after {
-    content: "File uploaded!";
+    content: "Success";
 }
 .custom-file {
     position: relative;
@@ -303,4 +303,35 @@ li {
 .row.justify-content-center {
     margin-top: 0px;
     margin-bottom: 20px;
+}
+#picture_garrett {
+    margin-left: 100px;
+}
+#main {
+    padding-top: 30px;
+}
+#projectanalysis_links {
+    margin-bottom: 5px;
+}
+#projectanalysis {
+    margin-top: 15px;
+}
+#project_analysis {
+    margin-bottom: 15px;
+}
+.design_photos {
+    display: flex;
+    flex-direction:row;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+#design_2D {
+    margin-left: 80px;
+    margin-right: 20px;
+}
+#design_full_3D {
+    margin-right: 20px;
+}
+#project_milestones_internal {
+    margin-bottom: 5px;
 }
